@@ -1,5 +1,5 @@
 const LocalStorage = require('node-localstorage').LocalStorage;
-var localStorage = new LocalStorage('./scratch');
+var localStorage = new LocalStorage('../scratch/');
 var jwt  = require('jsonwebtoken');
 const JWT_SECRET = 'Darshitisagoodboy';
 
