@@ -4,7 +4,8 @@ const Tags = require("../models/Tags");
 const fetchuser = require('../middleware/fetchuser');
 
 const LocalStorage = require('node-localstorage').LocalStorage;
-var localStorage = new LocalStorage('./scratch');
+var localStorage = new LocalStorage('../scratch/');
+
 
 const router = express.Router();
 
