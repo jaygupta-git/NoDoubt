@@ -5,7 +5,8 @@ const Comment = require("../models/Comment");
 const { route } = require('./questions');
 
 const LocalStorage = require('node-localstorage').LocalStorage;
-var localStorage = new LocalStorage('./scratch');
+var localStorage = new LocalStorage('../scratch/');
+
 
 const router = express.Router();
 
