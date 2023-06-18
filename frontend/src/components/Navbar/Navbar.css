@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+.title1{
+    width:25%;
+     position: absolute;
+     top: 40px;
+     right: 20px;
+     z-index: 1;
+}
+
+body {
+  box-sizing: border-box;
+}
+h1, h2 {
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+  text-align: left;
+}
+h2 {
+  color: #9E9E9E;
+  font-style: italic;
+  font-size: 15px;
+}
+.card2 {
+  background-color: #eee;
+  margin: 50px auto;
+  max-width: 500px;
+  text-align: center;
+  border-radius: 10px;
+  height: 50vh;
+}
+.card__copy {
+  padding: 20px;
+}
+
+.dropdown:hover .dropdown-menu{
+  display: block;
+  border-style:none;
+  }
+
+/* Styles for the search input */
+input[type="search"] {
+  /* Box sizing */
+  box-sizing: border-box;
+  
+  /* Set width and height */
+  width: 400px;
+  height: 40px;
+  
+  /* Padding and border */
+  padding: 5px;
+  border: 1px solid #ccc;
+  
+  /* Add some border radius */
+  border-radius: 10px;
+  
+  /* Add a subtle box shadow */
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  
+  /* Customize the placeholder text */
+  ::placeholder {
+    color: #999;
+    font-style: italic;
+  }
+}
+
+/* Styles for the search input when focused */
+input[type="search"]:focus {
+  outline: none;
+  border-color: #5b9dd9;
+  box-shadow: 0 0 5px rgba(91, 157, 217, 0.5);
+}
+
+
