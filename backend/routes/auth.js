@@ -1,6 +1,7 @@
 const express = require('express');
 const LocalStorage = require('node-localstorage').LocalStorage;
-var localStorage = new LocalStorage('./scratch');
+var localStorage = new LocalStorage('../scratch/');
+
 const User = require("../models/User");
 const Admin = require("../models/Admin");
 
