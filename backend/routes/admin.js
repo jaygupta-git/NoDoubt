@@ -4,7 +4,8 @@ const User = require("../models/User");
 const router = express.Router();
 
 const LocalStorage = require('node-localstorage').LocalStorage;
-var localStorage = new LocalStorage('./scratch');
+var localStorage = new LocalStorage('../scratch/');
+
 
 const { body, validationResult } = require('express-validator');
 const bcrypt = require('bcryptjs');
